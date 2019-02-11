@@ -73,7 +73,6 @@ body {
 	font-size: 17px;
 	color: #ffffff;	
 	float: left;
-	padding-left: 27px;
 	width: 100%;
 	padding-top: 60px;
 	font-weight: bold;
@@ -265,7 +264,6 @@ h1 {
 
 .banner-header {
 	font-size: 29px;
-	padding-left: 40px;
 	padding-top: 116px;
 }
 
@@ -369,7 +367,6 @@ h1 {
 
 .banner-header {
 	font-size: 49px;
-	padding-left: 83px;
 	padding-top: 205px;
 }
 
@@ -479,7 +476,6 @@ h1 {
 
 .banner-header {
 	font-size: 40px;
-	padding-left: 50px;
 	padding-top: 50px;
 }
 
@@ -548,9 +544,9 @@ h1 {
 .pic-3 {
 	margin: 40px auto;
 	display: block;
-	width: 337px;
-	height: 295px;
-	background-image: url("photo/photomain.jpg");
+	width: 360px;
+	height: 360px;
+	background-image: url("photo/photomain1.jpg");
 	align-self: center;
 }
 
