@@ -233,6 +233,26 @@ h1 {
 	line-height: 1.7;
 }
 
+.bottom-navigation{
+	background-color: #ebebeb;
+	color: #515151;
+	width: 1024px;
+	min-height: 100px;
+	margin: 0 auto;
+	transition: 0.3s;	
+}
+	
+.bottom-navigation a{
+	float: left;
+	padding-left: 50px;
+	line-height: 100px;
+	color: #ffffff;
+	text-decoration: none;
+	font-family: "Montserrat";
+	font-size: 14px;
+	display: none;
+}
+
 @media screen and (min-width: 640px) {
 
 .navigation {
@@ -574,25 +594,6 @@ h1 {
 	width: 38%;
 }
 	
-.bottom-navigation{
-	background-color: #ebebeb;
-	color: #515151;
-	width: 1024px;
-	min-height: 100px;
-	margin: 0 auto;
-	transition: 0.3s;	
-}
-	
-.bottom-navigation a{
-	float: left;
-	padding-left: 50px;
-	line-height: 100px;
-	color: #ffffff;
-	text-decoration: none;
-	font-family: "Montserrat";
-	font-size: 14px;
-	display: none;
-}
 
 }
 
