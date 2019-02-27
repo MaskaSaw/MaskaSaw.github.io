@@ -236,7 +236,7 @@ h1 {
 .bottom-navigation{
 	color: green;
 	width: 1024px;
-	min-height: 100px;
+	min-height: 400px;
 	margin: 0 auto;
 	transition: 0.3s;	
 }
