@@ -54,7 +54,7 @@ body {
 .banner {
 	height: 175px;
 	width: 320px;
-	background: linear-gradient(to top left, #ebebeb,  #202529);
+	background: linear-gradient(to top center, #373c3f,  #202529);
 	margin: 0 auto;
 	font-family: "Montserrat";	
 	transition: 0.3s;
