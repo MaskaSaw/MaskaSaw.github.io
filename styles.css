@@ -61,23 +61,35 @@ body {
 }
 .banner a {
 	text-decoration: none;
-	color: #a6d3dd;
+	color: #31a506;
 	cursor: pointer;
 }
 
 .banner a:hover {
-	color: #ffff00;
+	color: #f20707;
 }
 
 .banner-header {
-	font-size: 17px;
-	color: #ffffff;	
+	font-size: 16px;
+	color: #31a506;	
 	float: left;
 	width: 100%;
-	padding-top: 60px;
+	padding-top: 20px;
 	font-weight: bold;
 	margin: 0;
 	transition: 0.3s;
+}
+
+.banner-header-text {
+	font-size: 20px;
+	color: #ffff00;
+	text-align: center;
+}
+
+.banner-header-content {
+	font-size: 14px;
+	padding-left: 100px;
+	padding-top: 30px;
 }
 
 .banner-text {
@@ -286,10 +298,17 @@ h1 {
 
 
 .banner-header {
-	font-size: 29px;
-	padding-top: 116px;
+	font-size: 20px;
+	padding-top: 40px;
 }
 
+.banner-header-text {
+	font-size: 25px;
+}
+
+.banner-header-content {
+	font-size: 19px;
+}
 
 .banner-bot {
 	padding-top: 44px;
@@ -387,10 +406,17 @@ h1 {
 	height: 550px;
 }
 
-
 .banner-header {
-	font-size: 49px;
-	padding-top: 205px;
+	font-size: 20px;
+	padding-top: 100px;
+}
+
+.banner-header-text {
+	font-size: 35px;
+}
+
+.banner-header-content {
+	font-size: 22px;
 }
 
 
@@ -498,8 +524,14 @@ h1 {
 
 
 .banner-header {
+	padding-top: 100px;
+	font-size: 29px;
+}
+
+.banner-header-text {
 	font-size: 40px;
-	padding-top: 50px;
+	color: #ffff00;
+	text-align: center;
 }
 
 
@@ -550,22 +582,9 @@ h1 {
 	height: 295px;
 }
 
-.pic-1 {
-	width: 342px;
-	height: 295px;
-	background-image: url("1024/1.jpg");
-	float: left;
-}
-
-.pic-2 {
-	width: 337px;
-	height: 295px;
-	background-image: url("1024/2.jpg");
-	float: left;
-}
-
-.pic-3 {
-	margin: 40px auto;
+.pic {
+	border-radius: 50%;
+	margin: auto;
 	display: block;
 	width: 360px;
 	height: 360px;
@@ -596,6 +615,8 @@ h1 {
 	font-size: 17px;
 	width: 38%;
 }
+
+
 	
 
 }
